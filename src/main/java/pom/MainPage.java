@@ -45,12 +45,6 @@ public class MainPage {
         return this;
     }
 
-    //метод для получения текста после клика по Вопросу
-//    public MainPage showTextAfterClick(String dropDownElement){
-//        getAccordionDropDown(dropDownElement).getText();
-//        return this;
-//    }
-
     public MainPage showTextAfterClick(String dropDownElement) {
         WebElement accordionElement = getAccordionDropDown(dropDownElement);
         String textAfterClick = accordionElement.getText();
@@ -59,25 +53,4 @@ public class MainPage {
         return this;
     }
 
-//    public MainPage clickOnElementInDropList() {
-//        driver.findElement(dropListQuestion).click();
-//        return this;
-//    }
-//    public boolean checkTextAfterClick() {
-//        return driver.findElement(textInElemetAfterClick).isDisplayed();
-//    }
-//
-//    public void clickOnQuestionByText(String text) {
-//        driver.findElement(By.xpath("//*[contains(text(), '" + text + "')]")).click();
-//    }
-
-
-//    //Сашина реализация
-//    public By getDropList(int number) {
-//        return By.id("accordion__heading-" + number);
-//    }
-//
-//    public By getDropListQuestion(int number) {
-//        return By.id("accordion__panel-" + number);
-//    }
 }

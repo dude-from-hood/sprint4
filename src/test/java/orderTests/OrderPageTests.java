@@ -1,18 +1,16 @@
 // Первая реализация без использования параметризации
 
- package orderTests;
+package orderTests;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+
 import pom.OrderPage;
 import java.time.Duration;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 
 
 public class OrderPageTests {
